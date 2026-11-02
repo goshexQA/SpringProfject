@@ -4,57 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19630372-8855-41f2-a420-8f79b77fac51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/BookingStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/ApiGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/filter/JwtAuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/BookingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/FeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/HotelServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/HotelServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/DataInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/filter/JwtValidationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/filter/JwtValidationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/AuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/BookingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/BookingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/BookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/hotel/eureka/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/hotel/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/HotelServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/HotelServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/DataInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/filter/JwtValidationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/filter/JwtValidationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/HotelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/ConfirmAvailabilityResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/ConfirmAvailabilityResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/HotelDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/HotelDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/RoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/RoomDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ConflictException.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ConflictException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/HotelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/RoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/RoomRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/HotelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/RoomService.java" afterDir="false" />
+    <list default="true" id="19630372-8855-41f2-a420-8f79b77fac51" name="Changes" comment="Микросервис, фиксы формата дат, добавление пагинации, запуск тестов.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +142,19 @@
       <option name="presentableId" value="Default" />
       <updated>1793623155107</updated>
     </task>
+    <task id="LOCAL-00001" summary="Микросервис, фиксы формата дат, добавление пагинации, запуск тестов.">
+      <option name="closed" value="true" />
+      <created>1793635226713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1793635226713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Микросервис, фиксы формата дат, добавление пагинации, запуск тестов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Микросервис, фиксы формата дат, добавление пагинации, запуск тестов." />
   </component>
 </project>
