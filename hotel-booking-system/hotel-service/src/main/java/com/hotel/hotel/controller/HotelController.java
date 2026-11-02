@@ -1,4 +1,4 @@
-﻿package com.hotel.hotel.controller;
+package com.hotel.hotel.controller;
 
 import com.hotel.hotel.dto.HotelDto;
 import com.hotel.hotel.service.HotelService;

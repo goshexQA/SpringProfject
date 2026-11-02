@@ -1,4 +1,4 @@
-﻿package com.hotel.booking.service;
+package com.hotel.booking.service;
 
 import com.hotel.booking.client.HotelServiceClient;
 import com.hotel.booking.dto.BookingRequest;
@@ -10,6 +10,8 @@ import com.hotel.booking.repository.BookingRepository;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -47,8 +49,11 @@ public class BookingService {
 
         try {
             Map<String, Object> response = confirmAvailabilityWithCircuitBreaker(
-                    request.getRoomId(), booking.getId().toString(),
-                    request.getStartDate(), request.getEndDate(), requestId);
+                    request.getRoomId(),
+                    booking.getId().toString(),
+                    request.getStartDate().toString(),
+                    request.getEndDate().toString(),
+                    requestId);
 
             boolean success = Boolean.TRUE.equals(response.get("success"));
 
@@ -72,13 +77,12 @@ public class BookingService {
 
     @CircuitBreaker(name = "hotelService", fallbackMethod = "fallbackConfirm")
     public Map<String, Object> confirmAvailabilityWithCircuitBreaker(
-            Long roomId, String bookingId, java.time.LocalDate start,
-            java.time.LocalDate end, String requestId) {
+            Long roomId, String bookingId, String start, String end, String requestId) {
         return hotelServiceClient.confirmAvailability(roomId, bookingId, start, end, requestId);
     }
 
     public Map<String, Object> fallbackConfirm(Long roomId, String bookingId,
-            java.time.LocalDate start, java.time.LocalDate end, String requestId, Throwable t) {
+                                               String start, String end, String requestId, Throwable t) {
         log.error("Circuit breaker fallback: {}", t.getMessage());
         throw new RuntimeException("Hotel service unavailable", t);
     }
@@ -95,9 +99,8 @@ public class BookingService {
         }
     }
 
-    public java.util.List<BookingResponse> getUserBookings(Long userId) {
-        return bookingRepository.findByUserId(userId).stream()
-                .map(this::toResponse).toList();
+    public Page<BookingResponse> getUserBookings(Long userId, Pageable pageable) {
+        return bookingRepository.findByUserId(userId, pageable).map(this::toResponse);
     }
 
     public BookingResponse getBookingById(Long id) {

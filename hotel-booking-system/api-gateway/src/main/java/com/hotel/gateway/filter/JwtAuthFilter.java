@@ -1,4 +1,4 @@
-﻿package com.hotel.gateway.filter;
+package com.hotel.gateway.filter;
 
 import com.hotel.gateway.util.JwtUtil;
 import org.springframework.cloud.gateway.filter.GlobalFilter;

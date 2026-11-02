@@ -1,4 +1,4 @@
-﻿package com.hotel.booking.util;
+package com.hotel.booking.util;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;

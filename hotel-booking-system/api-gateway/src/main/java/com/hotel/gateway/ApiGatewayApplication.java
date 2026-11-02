@@ -1,4 +1,4 @@
-﻿package com.hotel.gateway;
+package com.hotel.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

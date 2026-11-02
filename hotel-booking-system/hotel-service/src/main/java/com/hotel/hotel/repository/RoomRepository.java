@@ -1,4 +1,4 @@
-﻿package com.hotel.hotel.repository;
+package com.hotel.hotel.repository;
 
 import com.hotel.hotel.entity.Room;
 import jakarta.persistence.LockModeType;

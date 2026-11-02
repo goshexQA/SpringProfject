@@ -1,11 +1,10 @@
-﻿package com.hotel.booking.client;
+package com.hotel.booking.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import java.time.LocalDate;
 import java.util.Map;
 
 @FeignClient(name = "hotel-service", configuration = FeignConfig.class)
@@ -15,8 +14,8 @@ public interface HotelServiceClient {
     Map<String, Object> confirmAvailability(
             @PathVariable("id") Long roomId,
             @RequestParam("bookingId") String bookingId,
-            @RequestParam("startDate") LocalDate startDate,
-            @RequestParam("endDate") LocalDate endDate,
+            @RequestParam("startDate") String startDate, // <-- Изменено на String
+            @RequestParam("endDate") String endDate,     // <-- Изменено на String
             @RequestParam("requestId") String requestId);
 
     @PostMapping("/api/rooms/{id}/release")

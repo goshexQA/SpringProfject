@@ -1,4 +1,4 @@
-﻿package com.hotel.booking.entity;
+package com.hotel.booking.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -37,6 +37,3 @@ public class Booking {
     private String requestId;
 }
 
-enum BookingStatus {
-    PENDING, CONFIRMED, CANCELLED
-}
