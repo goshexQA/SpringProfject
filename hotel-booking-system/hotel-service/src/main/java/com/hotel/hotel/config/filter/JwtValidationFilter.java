@@ -1,4 +1,4 @@
-﻿package com.hotel.hotel.config.filter;
+package com.hotel.hotel.config.filter;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

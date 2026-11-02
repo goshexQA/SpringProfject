@@ -1,4 +1,4 @@
-﻿package com.hotel.booking.config;
+package com.hotel.booking.config;
 
 import com.hotel.booking.entity.User;
 import com.hotel.booking.repository.UserRepository;

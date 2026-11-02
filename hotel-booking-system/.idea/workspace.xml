@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19630372-8855-41f2-a420-8f79b77fac51" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/BookingStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/filter/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/filter/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hotel/gateway/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/BookingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/BookingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/FeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/HotelServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/client/HotelServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/filter/JwtValidationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/config/filter/JwtValidationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/BookingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/BookingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/BookingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/booking-service/src/main/java/com/hotel/booking/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/hotel/eureka/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/hotel/eureka/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/HotelServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/HotelServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/DataInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/filter/JwtValidationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/config/filter/JwtValidationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/ConfirmAvailabilityResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/ConfirmAvailabilityResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/HotelDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/HotelDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/RoomDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/dto/RoomDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/entity/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ConflictException.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ConflictException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/HotelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/RoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/repository/RoomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/HotelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel-service/src/main/java/com/hotel/hotel/service/RoomService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;goshexQA&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/goshexQA/SpringProfject.git&quot;,
+    &quot;accountId&quot;: &quot;940071dd-2864-48e3-b3be-bfc03f149753&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3LYFa7GAxZ9Vh2rc8UseSWIR04o" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.BookingServiceApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.HotelServiceApplication.executor": "Run",
+    "Maven.api-gateway [clean].executor": "Run",
+    "Maven.api-gateway [install].executor": "Run",
+    "Maven.booking-service [clean].executor": "Run",
+    "Maven.booking-service [compile].executor": "Run",
+    "Maven.booking-service [install].executor": "Run",
+    "Maven.eureka-server [install].executor": "Run",
+    "Maven.hotel-booking-system [clean].executor": "Run",
+    "Maven.hotel-booking-system [compile].executor": "Run",
+    "Maven.hotel-booking-system [test].executor": "Run",
+    "Maven.hotel-service [clean].executor": "Run",
+    "Maven.hotel-service [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Fix",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Goshex/IdeaProjects/Project_5/SpringProfject/hotel-booking-system",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.gateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.booking.BookingServiceApplication" />
+      <module name="booking-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.booking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.eureka.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hotel.hotel.HotelServiceApplication" />
+      <module name="hotel-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotel.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BookingServiceApplication" />
+        <item itemvalue="Application.HotelServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19630372-8855-41f2-a420-8f79b77fac51" name="Changes" comment="" />
+      <created>1793623155107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793623155107</updated>
+    </task>
+    <servers />
+  </component>
+</project>

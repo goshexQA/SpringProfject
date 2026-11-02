@@ -1,10 +1,13 @@
-﻿package com.hotel.booking.controller;
+package com.hotel.booking.controller;
 
 import com.hotel.booking.dto.BookingRequest;
 import com.hotel.booking.dto.BookingResponse;
 import com.hotel.booking.service.BookingService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -31,9 +34,11 @@ public class BookingController {
 
     @GetMapping
     @PreAuthorize("hasRole('USER')")
-    public ResponseEntity<List<BookingResponse>> getUserBookings(Authentication auth) {
+    public ResponseEntity<Page<BookingResponse>> getUserBookings(
+            @PageableDefault(size = 20) Pageable pageable,
+            Authentication auth) {
         Long userId = Long.parseLong(auth.getName());
-        return ResponseEntity.ok(bookingService.getUserBookings(userId));
+        return ResponseEntity.ok(bookingService.getUserBookings(userId, pageable));
     }
 
     @GetMapping("/{id}")

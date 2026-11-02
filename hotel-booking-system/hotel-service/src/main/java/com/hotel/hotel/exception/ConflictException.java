@@ -1,4 +1,4 @@
-﻿package com.hotel.hotel.exception;
+package com.hotel.hotel.exception;
 
 public class ConflictException extends RuntimeException {
     public ConflictException(String message) {

@@ -1,4 +1,4 @@
-﻿package com.hotel.booking.config;
+package com.hotel.booking.config;
 
 import com.hotel.booking.config.filter.JwtValidationFilter;
 import org.springframework.context.annotation.Bean;

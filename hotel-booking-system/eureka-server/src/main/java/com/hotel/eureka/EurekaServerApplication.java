@@ -1,4 +1,4 @@
-﻿package com.hotel.eureka;
+package com.hotel.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

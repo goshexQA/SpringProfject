@@ -1,4 +1,4 @@
-﻿package com.hotel.hotel.config;
+package com.hotel.hotel.config;
 
 import com.hotel.hotel.entity.Hotel;
 import com.hotel.hotel.entity.Room;

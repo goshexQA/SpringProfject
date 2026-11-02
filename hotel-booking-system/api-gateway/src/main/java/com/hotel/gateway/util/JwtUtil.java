@@ -1,4 +1,4 @@
-﻿package com.hotel.gateway.util;
+package com.hotel.gateway.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

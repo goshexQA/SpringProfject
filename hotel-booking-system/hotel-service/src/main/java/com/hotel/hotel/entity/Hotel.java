@@ -1,4 +1,4 @@
-﻿package com.hotel.hotel.entity;
+package com.hotel.hotel.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,4 +1,4 @@
-﻿package com.hotel.hotel.service;
+package com.hotel.hotel.service;
 
 import com.hotel.hotel.dto.ConfirmAvailabilityResponse;
 import com.hotel.hotel.dto.RoomDto;
